@@ -1,0 +1,227 @@
+@charset "UTF-8";
+div.animation {
+  width: 100%;
+  height: 100vh;
+  background-color: #e08958;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#first {
+  stroke-dasharray: 301px;
+  stroke-dashoffset: 301px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards;
+          animation: fadeInside 0.6s ease-in forwards;
+}
+
+#second {
+  stroke-dasharray: 413px;
+  stroke-dashoffset: 413px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 0.3s;
+          animation: fadeInside 0.6s ease-in forwards 0.3s;
+}
+
+#third {
+  stroke-dasharray: 306px;
+  stroke-dashoffset: 306px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 0.6s;
+          animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+
+#four {
+  stroke-dasharray: 306px;
+  stroke-dashoffset: 306px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 0.9s;
+          animation: fadeInside 0.6s ease-in forwards 0.9s;
+}
+
+#five {
+  stroke-dasharray: 383px;
+  stroke-dashoffset: 383px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 1.2s;
+          animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+
+#six {
+  stroke-dasharray: 506px;
+  stroke-dashoffset: 506px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 1.5s;
+          animation: fadeInside 0.6s ease-in forwards 1.5s;
+}
+
+#seven {
+  stroke-dasharray: 506px;
+  stroke-dashoffset: 506px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 1.8s;
+          animation: fadeInside 0.6s ease-in forwards 1.8s;
+}
+
+#eight {
+  stroke-dasharray: 404px;
+  stroke-dashoffset: 404px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 2.1s;
+          animation: fadeInside 0.6s ease-in forwards 2.1s;
+}
+
+#nine {
+  stroke-dasharray: 370px;
+  stroke-dashoffset: 370px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 2.4s;
+          animation: fadeInside 0.6s ease-in forwards 2.4s;
+}
+
+#ten {
+  stroke-dasharray: 530px;
+  stroke-dashoffset: 530px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 2.7s;
+          animation: fadeInside 0.6s ease-in forwards 2.7s;
+}
+
+#eleven {
+  stroke-dasharray: 1385px;
+  stroke-dashoffset: 1385px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards;
+          animation: fadeInside 0.6s ease-in forwards;
+}
+
+#twelve {
+  stroke-dasharray: 1132px;
+  stroke-dashoffset: 1132px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 0.4s;
+          animation: fadeInside 0.6s ease-in forwards 0.4s;
+}
+
+#Thirteen {
+  stroke-dasharray: 1174px;
+  stroke-dashoffset: 1174px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 0.8s;
+          animation: fadeInside 0.6s ease-in forwards 0.8s;
+}
+
+#fourteen {
+  stroke-dasharray: 1388px;
+  stroke-dashoffset: 1388px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 1.2s;
+          animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+
+#fifteen {
+  stroke-dasharray: 606px;
+  stroke-dashoffset: 606px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 1.6s;
+          animation: fadeInside 0.6s ease-in forwards 1.6s;
+}
+
+#sixteen {
+  stroke-dasharray: 1283px;
+  stroke-dashoffset: 1283px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 2s;
+          animation: fadeInside 0.6s ease-in forwards 2s;
+}
+
+#seventeen {
+  stroke-dasharray: 1209px;
+  stroke-dashoffset: 1209px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 2.9s;
+          animation: fadeInside 0.6s ease-in forwards 2.9s;
+}
+
+svg {
+  -webkit-animation: fill 1s ease-in forwards 2.7s;
+          animation: fill 1s ease-in forwards 2.7s;
+}
+
+@-webkit-keyframes fadeInside {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes fadeInside {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@-webkit-keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #fe4c00;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #fe4c00;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  div.animation div.logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/* Jeffy Huang 網頁前端工程師 */
+@media screen and (max-width: 640px) {
+  div.animation div.logo {
+    background-image: url("../Jeffy Huang 網頁前端工程師.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    -webkit-animation: left 2.7s ease forwards;
+            animation: left 2.7s ease forwards;
+    overflow: hidden;
+  }
+  div.animation div.logo span {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes left {
+  0% {
+    width: 0%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  100% {
+    width: 100%;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+
+@keyframes left {
+  0% {
+    width: 0%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  100% {
+    width: 100%;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+/*# sourceMappingURL=animation.css.map */

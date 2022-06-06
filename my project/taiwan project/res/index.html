@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>台灣發展歷史網頁</title>
+    <meta
+      name="description"
+      content="此網站介紹台灣過去70年的經濟發展與相關政策"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: rgb(177, 174, 174);
+        padding: 1px 20px;
+      }
+      header > h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        margin-top: 10px;
+      }
+
+      nav {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex: 1 1 50px;
+        align-items: center;
+        gap: 20px;
+        height: 40px;
+      }
+      nav > a:nth-child(1) {
+        margin-left: 20px;
+      }
+      nav > a {
+        text-decoration: none;
+        color: white;
+      }
+      .flex {
+        display: flex;
+      }
+      main {
+        flex: 2 1 600px;
+        padding: 20px;
+        position: relative;
+      }
+      aside {
+        flex: 1 1 300px;
+        background-color: rgba(180, 180, 180, 0.411);
+        height: 70vh;
+        padding: 20px;
+      }
+      aside > h3 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1.2rem;
+        text-indent: 1rem;
+      }
+      img {
+        position: absolute;
+        top: 320px;
+        right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>台灣經濟發展歷史</h1>
+      <h2>過去70年台灣經濟發展的歷史與相關政策</h2>
+    </header>
+    <nav>
+      <a href="#">首頁</a>
+      <a href="#">農業改革</a>
+      <a href="#">工業改革</a>
+      <a href="#">經濟起飛</a>
+      <a href="#">關於作者</a>
+    </nav>
+    <div class="flex">
+      <main>
+        <p>
+          台灣是太平洋中的一個島嶼。今天，這個島上生活著不同的人群，包括福建，客家，其他省份的中國人，台灣原住民和東南亞移民。第二次世界大戰之前，台灣是日本的殖民地。
+          1895年,由於第一次抗日戰爭失敗,中國將台灣,遼東半島等地賜予日本。第二次世界大戰後,中華民國政府移居台灣，並開始建造該島。中華民國政府在1949年到達台灣時，
+          也有將近200萬士兵及其家屬也移居台灣。當時中華民國政府到達台灣時,有許多事情需要解決。
+          1945年第二次世界大戰結束時,台灣的經濟和衛生條件很低。中華民國政府對台灣的發展產生了重大影響，
+          將經濟實體從農業轉變為高科技產業。
+        </p>
+        <img
+          width="200px"
+          height="250px"
+          src="./taiwanIcon.png"
+          alt="taiwanicon"
+        />
+      </main>
+      <aside>
+        <h3>台灣經濟發展小知識:你知道台灣在哪裡嗎?</h3>
+
+        <p>
+          台灣是太平洋上的一個小島。
+          它毗鄰中國，在島上的原住民被認為是太平洋群島南島語族語系人民的起源。
+          <br />台灣的陸地面積為13972公里,島上約有2380萬人居住,最主要通用語言為中文、閩南語、客家話。
+        </p>
+      </aside>
+    </div>
+  </body>
+</html>
